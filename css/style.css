@@ -1,0 +1,25 @@
+a:hover {
+  text-decoration: none;
+}
+
+a.nav-item:link {
+  color: #000;
+}
+
+a.nav-item:hover {
+  color: #3AAFA9;
+}
+
+.btn-outline-dark {
+  border-color: transparent;
+}
+
+.btn-outline-dark:hover {
+  background-color: transparent;
+  border-color: #343a40;
+  color: #343a40;
+}
+
+.single-nav {
+  color: white;
+}
