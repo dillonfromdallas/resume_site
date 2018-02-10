@@ -8,24 +8,40 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-
+    <!-- Main site code -->
     <title>Dillon Reyna</title>
   </head>
 
   <body class="container">
-    <nav class="navbar text-center navbar-expand-lg navbar-light bg-white">
-        <div class="col col-6">
-          <a class="nav-item active" href="#">Test</a>
-        </div>
-        <div class="col col-6">
-          <a class="nav-item active" href="#">Text</a>
-        </div>
+    <nav class="navbar navbar-light">
     </nav>
+    <div class="jumbotron text-dark bg-white text-center">
+      <h1 class="display-1">Dillon Reyna</h1>
+      <p class="lead">Dallas, TX Full Stack Python Developer</p>
+      <a href="about.html"><button type="button" class="btn btn-lg btn-outline-dark">About Me</button></a>
+      <a href="contact.html"><button type="button" class="btn btn-lg btn-outline-dark">Contact</button></a>
+      <a href="projects.html"><button type="button" class="btn btn-lg btn-outline-dark">Projects</button></a>
+      <button type="button" class="btn btn-lg btn-outline-dark" data-toggle="modal" data-target="#resumeModal">Resume</button>
+    </div>
 
-    <div class="text-center">
-      <div class="jumbotron">
-        <h1 class="display-1">Dillon Reyna</h1>
-        <p class="lead">Dallas, TX Full Stack Python Developer</p>
+    <!-- Modal -->
+    <div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="resumeModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="resumeModal">Download My Resume</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a href="../files/resume.pdf" download>Click here to download my resume! PDF</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../files/resume.pdf" target="_blank"><button type="button" class="btn btn-primary">Open in a New Tab</button></a>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Optional JavaScript -->
